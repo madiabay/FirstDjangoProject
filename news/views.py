@@ -71,7 +71,7 @@ class HomeNews(MyMixin, ListView):
     model = News
     template_name = 'news/home_news_list.html'
     context_object_name = 'news'
-    mixin_prop = 'hello world'
+    # mixin_prop = 'hello world'
     paginate_by = 2
     #extra_context = {'title': 'Главная'}
 
